@@ -69,10 +69,19 @@ p{
     margin:auto;
 
 }
+
+#baltaPleasa2{
+    width: 45rem; 
+    border-radius: 15px;
+    -webkit-box-shadow: 7px 11px 9px -2px rgba(0,0,0,0.89); 
+    box-shadow: 7px 11px 9px -2px rgba(0,0,0,0.89);
+    margin:auto;
+
+}
 /* STOPANIMATIE */
 
 #title{
-    background-image: url(../images/newbg.jpg);
+    background-image: url(/images/newbg.jpg);
     background-size: cover;
     margin: auto;
     color: white;
@@ -278,7 +287,7 @@ h1{
 
 #poza{
     border-radius: 15px;
-    width: 22rem;
+    width: 20rem;
     margin: 5%;
     cursor: pointer;
     -webkit-box-shadow: 7px 11px 9px -2px rgba(0,0,0,0.89); 
@@ -327,6 +336,11 @@ h1{
 #dropIcon{
     color: white !important;
 }
+
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 
 #cta{
     color: white;
@@ -396,7 +410,7 @@ h1{
     color: white;
 }
 
-@media (max-width: 1589px){
+/* @media (max-width: 1589px){
     #baltaPleasa{
         width: 35rem;
     }
@@ -411,5 +425,45 @@ h1{
 @media(max-width: 990px){
     #baltaPleasa{
         width: 45rem;
+    }
+} */
+
+@media (max-width: 700px){
+    #baltaPleasa{
+        width: 20rem;
+    }
+}
+
+@media (max-width:700px){
+    #baltaPleasa2{
+        width: 16rem;
+        margin-bottom: 55px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1550px){
+    #baltaPleasa{
+        width: 25rem;
+    }
+
+}
+
+@media (max-width: 1550px){
+    #baltaPleasa2{
+        width: 25rem;
+    }
+
+}
+
+@media (max-width: 505px){
+    #baltaPleasa{
+        width: 11rem;
+    }
+}
+
+@media (max-width: 505px){
+    #baltaPleasa2{
+        width: 11rem;
     }
 }
