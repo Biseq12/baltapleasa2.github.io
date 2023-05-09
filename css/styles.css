@@ -1,0 +1,415 @@
+
+body{
+    /* background-image: url(/images/bg-img.jpg); */
+    /* background-size: 100%; */
+    width:100%; 
+    overflow-x: hidden;
+}
+
+
+h3{
+    font-family: "Montserrat-Black", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f
+}
+
+/* Animatie Dropdown */
+/* ANIMATIE DROPDOWN */
+.dropdown-menu{
+    text-align: center;
+    opacity: 1;
+}
+
+#row img:hover{
+    transition: 0.4s;
+    width: 25rem;
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        background-color: white;
+        pointer-events: none;
+        opacity: 0;
+        display: block;
+        transition: all 0.4s;
+    }
+    .dropdown:hover .dropdown-menu{
+    display: block;
+    pointer-events: initial;
+    opacity: 1;
+        }
+}
+
+
+#capturi{
+    font-family: 'Bangers', cursive;
+    text-shadow: -6px 2px 3px rgba(0,0,0,0.94);
+    padding: 1%;
+}
+
+
+#baltaPleasa{
+    width: 45rem; 
+    border-radius: 15px;
+    -webkit-box-shadow: 7px 11px 9px -2px rgba(0,0,0,0.89); 
+    box-shadow: 7px 11px 9px -2px rgba(0,0,0,0.89);
+    margin:auto;
+
+}
+/* STOPANIMATIE */
+
+#title{
+    background-image: url(/images/newbg.jpg);
+    background-size: cover;
+    margin: auto;
+    color: white;
+}
+
+.nav-link{
+    color: white !important;
+    font-family: 'Bangers', cursive !important;
+    text-shadow: -4px 2px 2px #000000;
+}
+
+
+/* ANIMATIE TEXT */
+@keyframes slideInLeft {
+
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/*  */
+
+.firstText{
+    font-family: 'Bangers', cursive;
+    text-shadow: -6px 2px 3px rgba(0,0,0,0.94);
+    color: #ffffff;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+#firstTextBalta{
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1{
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+#brandTitle{
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+
+
+.title-image{
+    width: 17%;
+    transform:rotate(25deg);
+    position: absolute;
+    top: 10rem;
+    right: 28%;
+}
+
+/* Features section */
+
+#features{
+    position: relative;
+    background-color: white;
+    padding: 7% 15%;
+    z-index: 1;
+}
+
+#details{
+    text-align: center;
+    padding: 4.5%;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+#circleIcon{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #263A29;
+    margin-bottom: 1rem;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+#circleIcon:hover{
+    color:#41644A;
+}
+
+#bullseye{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #263A29;
+    margin-bottom: 1rem;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+#bullseye:hover{
+    color:#41644A;
+}
+
+
+#heart{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #263A29;
+    margin-bottom: 1rem;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+#heart:hover{
+    color: #41644A;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    text-align: center;
+    background: rgb(61,89,65);
+    background: linear-gradient(153deg, rgba(61,89,65,1) 0%, rgba(38,58,41,1) 30%, rgba(38,58,41,1) 81%, rgba(61,89,65,1) 100%);
+    color: white;
+    overflow-x: hidden;
+}
+
+#poza{
+    border-radius: 15px;
+    width: 22rem;
+    margin: 5%;
+    cursor: pointer;
+    -webkit-box-shadow: 7px 11px 9px -2px rgba(0,0,0,0.89); 
+    box-shadow: 7px 11px 9px -2px rgba(0,0,0,0.89);
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*  Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.navbar-toggler{
+    border: none;
+    color: solid white !important;
+}
+
+
+#dropIcon{
+    color: white !important;
+}
+
+#cta{
+    color: white;
+    font-family: 'Bangers', cursive;
+    background: rgb(61,89,65);
+    background: linear-gradient(153deg, rgba(61,89,65,1) 0%, rgba(38,58,41,1) 30%, rgba(38,58,41,1) 81%, rgba(61,89,65,1) 100%);
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+
+.cta-text{
+    font-family: "Montserrat";
+    text-shadow: -6px 2px 3px rgba(0,0,0,0.94);
+    font-size: 2.5rem;
+    font-weight: 900;
+    width: 45rem;
+    margin: auto;
+}
+
+#map{
+    margin-top: 45px;
+}
+
+
+
+
+.iconFooter{
+    margin: 0.5rem;
+}
+
+#footer{
+    text-align: center;
+    padding: 5% 15%;
+}
+
+
+@media (max-width:1256px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+
+}
+
+/* @media (min-width: 1256px) and (max-width: 1650px){
+    .title-image{
+        width: 25%;
+    }
+} */
+
+
+
+#footer p h6{
+    color: white;
+
+}
+
+.footer{
+    color: white;
+}
+
+@media (max-width: 1589px){
+    #baltaPleasa{
+        width: 35rem;
+    }
+}
+
+@media (max-width: 1290px){
+    #baltaPleasa{
+        width: 25rem;
+    }
+}
+
+@media(max-width: 990px){
+    #baltaPleasa{
+        width: 45rem;
+    }
+}
